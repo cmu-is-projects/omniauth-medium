@@ -7,6 +7,7 @@ module OmniAuth
       option :scope, 'basicProfile'
 
       option :client_options, {
+        client_id: '534c7bfcf9b5',
         site: 'https://api.medium.com/v1',
         authorize_url: 'https://medium.com/m/oauth/authorize',
         token_url: "https://api.medium.com/v1/tokens",
