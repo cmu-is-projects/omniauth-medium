@@ -12,7 +12,7 @@ module OmniAuth
         authorize_url: 'https://medium.com/m/oauth/authorize',
         token_url: "https://api.medium.com/v1/tokens",
         state: 'dGhlcmUncyBubyBuZWVkIHRvIGZlYXIuLi4=',
-        response_type: 'code',
+        response_type: 'coder',
         # redirect_uri: 'http%3A%2F%2Ftests.dev%2Fauth%2Fmedium%2Fcallback'
         redirect_uri: 'http://tests.dev/auth/medium/callback'
       }
