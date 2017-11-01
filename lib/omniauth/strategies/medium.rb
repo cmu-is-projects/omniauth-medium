@@ -12,7 +12,8 @@ module OmniAuth
         token_url: "https://api.medium.com/v1/tokens",
         state: 'dGhlcmUncyBubyBuZWVkIHRvIGZlYXIuLi4=',
         response_type: 'code',
-        redirect_uri: 'http%3A%2F%2Ftests.dev%2Fauth%2Fmedium%2Fcallback'
+        # redirect_uri: 'http%3A%2F%2Ftests.dev%2Fauth%2Fmedium%2Fcallback'
+        redirect_uri: 'http://tests.dev/auth/medium/callback'
       }
 
       uid { info["id"] }
